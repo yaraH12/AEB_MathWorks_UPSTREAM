@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="f398df32-5617-49ef-bd7c-777c01a9c49c" manual="true">
+    <element uuid="f7b2d258-5414-40d5-ac7a-dad85af79669" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>acceleration</seg>
+      </bo>
+      <position y="278.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="f82b750b-755d-4b24-bb6d-1bf75df4981a" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>lateral_velocity</seg>
+      </bo>
+      <position x="4063.0" y="484.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="7ee310a0-393a-4bb5-ab75-009df07bfded" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>longitudinal_velocity</seg>
+      </bo>
+      <position x="4029.0" y="38.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="fc6d8080-e326-4ed1-a17b-0547e1b14023" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>pose</seg>
+      </bo>
+      <position x="4126.0" y="243.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="4ec4504d-c24c-475c-ab16-1bf95adae9fa" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>steering_angle</seg>
+      </bo>
+      <position y="386.0"/>
+      <contentFilters/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>vehicledynamics3dof</seg>
+    </bo>
+    <position/>
+    <size width="4173.0" height="536.0"/>
+    <contentFilters/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>aebsystem::vd3dofvariant::vehicledynamics3dof</seg>
+    </context>
+  </config>
+</diagram:Diagram>

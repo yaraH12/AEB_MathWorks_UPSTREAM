@@ -1,0 +1,19 @@
+Fidelity[
+	FunctionsCoverage
+	Interfacesexistance
+	ModelVerification
+	Maturity
+]
+
+Validation[
+	Validity
+]
+
+
+Simulation[
+	Performance
+	RealTime
+	Precision
+	ExecutionTime
+	SimulatorCompatibility
+]

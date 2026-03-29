@@ -1,0 +1,40 @@
+package New_Types
+public
+	with Base_Types;
+	with Data_Model;
+	data Auto
+	end Auto;
+	
+
+	data Array
+	end Array;
+	
+	data ActorObject
+	end ActorObject;
+	
+	data Vector8 extends Array
+	end Vector8;
+	
+	data Relative_Distance
+		properties
+			Data_Model::Data_Representation => Float;
+			Data_Model::Measurement_Unit => 'm';
+			
+	end Relative_Distance;
+	
+	Bus BusVision
+	end BusVision;
+	
+	Bus BusRadar
+	end BusRadar;
+	
+	Bus BusEgoRefPath
+	end BusEgoRefPath;
+		
+	Bus BusMultiObjectTracker1
+	end BusMultiObjectTracker1;
+	
+	Bus BusVehiclePose
+	end BusVehiclePose;
+	
+end New_Types;
