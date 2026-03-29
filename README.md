@@ -1,7 +1,7 @@
 AEB — Model Representativity Evaluation for Automotive Simulation 
 This repository contains a MathWorks AEB system implementation with two Vehicle Dynamic variants (3DOF and 14DOF) used to evaluate an automated model representativity assessment methodology applied in an automotive context.
 In this example, we evaluate the representativity of these variants for a specific simulation need in the upstream phase of the project.
-The goal is to support engineers and researchers in selecting the most appropriate simulation model for a given need, while reducing trial‑and‑error and improving consistency across development phases. 
+The goal is to support engineers and researchers in selecting the most appropriate simulation model for a given need, while reducing trial‑and‑error and improving consistency across project phases. 
 The case study focuses on an AEB (Autonomous Emergency Braking) system, a key functionalitity of ADAS (Advanced Driver Assistance Systems). We want to select the most representative model of our simulation need from these 2 vehicle dynamics variants.
 
 Projet Contains:
